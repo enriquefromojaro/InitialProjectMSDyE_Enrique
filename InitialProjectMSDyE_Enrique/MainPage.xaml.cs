@@ -26,5 +26,15 @@ namespace InitialProjectMSDyE_Enrique
         {
             this.InitializeComponent();
         }
+
+        private void firstButton_Click(object sender, RoutedEventArgs e)
+        {
+            firstButton.Content = "Hello world";
+        }
+
+        private void firstButton_Click(object sender, TappedRoutedEventArgs e)
+        {
+            firstButton.Content = "Hello world";
+        }
     }
 }
